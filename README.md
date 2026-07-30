@@ -71,6 +71,7 @@ complete-observability-platform/
 * Grafana Dashboards
 * Health Monitoring
 * Dockerized Deployment
+* Kubernetes deployment
 
 ---
 
