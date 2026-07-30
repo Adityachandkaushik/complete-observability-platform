@@ -1,20 +1,41 @@
-"""
-Tracing Configuration
+import logging
 
-This module is responsible for configuring distributed tracing
-using OpenTelemetry and Jaeger.
+logger = logging.getLogger(__name__)
 
-Phase 4:
-- Configure OpenTelemetry SDK
-- Export traces to Jaeger
-- Automatically trace Flask requests
-"""
+
+class TracingManager:
+    """
+    Handles distributed tracing configuration.
+
+    Current Status:
+    - Placeholder implementation
+
+    Future Enhancements:
+    - OpenTelemetry SDK
+    - Jaeger Exporter
+    - Automatic Flask Instrumentation
+    - HTTP Request Tracing
+    """
+
+    def __init__(self):
+        self.enabled = False
+
+    def initialize(self, app):
+        logger.info("Tracing module initialized (placeholder)")
+        logger.info("Jaeger integration will be enabled in upcoming phase.")
+
+        self.enabled = False
+
+    def status(self):
+        return {
+            "enabled": self.enabled,
+            "provider": "None",
+            "exporter": "None"
+        }
+
+
+tracing_manager = TracingManager()
+
 
 def init_tracing(app):
-    """
-    Initialize tracing for the Flask application.
-
-    This is a placeholder implementation.
-    Jaeger integration will be added in Phase 4.
-    """
-    print("[Tracing] Initialization skipped (Phase 4)")
+    tracing_manager.initialize(app)
