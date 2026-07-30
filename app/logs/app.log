@@ -1,0 +1,8 @@
+2026-07-30 16:42:11 INFO Starting Flask application...
+2026-07-30 16:42:12 INFO Metrics endpoint initialized at /metrics
+2026-07-30 16:42:15 INFO GET /health - Status: 200 - Response Time: 18ms
+2026-07-30 16:42:19 INFO GET /products - Status: 200 - Response Time: 42ms
+2026-07-30 16:42:23 INFO POST /login - User authenticated successfully
+2026-07-30 16:42:31 WARNING GET /orders - Slow response detected (820ms)
+2026-07-30 16:42:36 ERROR POST /checkout - Payment service unavailable
+2026-07-30 16:42:38 INFO GET /metrics - Prometheus metrics served

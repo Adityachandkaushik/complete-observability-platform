@@ -54,6 +54,21 @@ def register_routes(app):
             return jsonify(users)
 
 
+    @app.route("/kr")
+    def kr():
+
+        REQUEST_COUNT.labels(method="GET", endpoint="/kr").inc()
+
+        with REQUEST_LATENCY.labels("/kr").time():
+
+            logger.info("KR endpoint accessed")
+
+            return jsonify({
+                "message": "KR endpoint active",
+                "status": "OK"
+            })
+
+
     @app.route("/login")
     def login():
 
