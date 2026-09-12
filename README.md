@@ -24,7 +24,7 @@ The goal of this project is to build a complete observability solution for a con
 * Loki
 * Promtail
 * Jaeger
-* OpenTelemetry *(Coming Soon)*
+* OpenTelemetry *(Coming Soon)* 
 
 ---
 
