@@ -11,7 +11,7 @@ The goal of this project is to build a complete observability solution for a con
 * 📈 Visualization with Grafana
 * 📜 Centralized Logging with Loki & Promtail
 * 🔍 Distributed Tracing with Jaeger
-* 🐳 Containerization using Docker Compose
+* 🐳 Containerization using Docker Compose 
 
 ---
 
