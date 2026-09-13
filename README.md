@@ -4,7 +4,7 @@
 A production-style observability platform built with **Prometheus, Grafana, Loki, Jaeger, Docker Compose, and Flask** to monitor application metrics, centralized logs, and distributed traces.
 
 ## 📌 Project Objective
-
+   
 The goal of this project is to build a complete observability solution for a containerized application by integrating:
 
 * 📊 Metrics with Prometheus
