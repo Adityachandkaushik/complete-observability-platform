@@ -7,7 +7,7 @@ A production-style observability platform built with **Prometheus, Grafana, Loki
    
 The goal of this project is to build a complete observability solution for a containerized application by integrating:
 
-* 📊 Metrics with Prometheus
+* 📊 Metrics with Prometheus  
 * 📈 Visualization with Grafana
 * 📜 Centralized Logging with Loki & Promtail
 * 🔍 Distributed Tracing with Jaeger
