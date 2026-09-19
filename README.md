@@ -17,7 +17,7 @@ The goal of this project is to build a complete observability solution for a con
 ---
 
 ## 🛠️ Tech Stack
-
+  
 * Python (Flask)
 * Docker & Docker Compose
 * Prometheus
