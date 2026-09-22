@@ -10,6 +10,6 @@ Current Status
 Upcoming
 
 - Prometheus Integration
-- Grafana Dashboard
+- Grafana Dashboard  
 - Loki Logging
 - Jaeger Tracing
