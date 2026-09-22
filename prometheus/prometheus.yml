@@ -6,4 +6,4 @@ scrape_configs:
  
     static_configs:
       - targets:
-          - app:5000
+          - app:5000   
