@@ -10,7 +10,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s",
     handlers=[
-        logging.FileHandler(os.path.join(LOG_DIR, "app.log")),
+        logging.FileHandler(os.path.join(LOG_DIR, "app.log")),    
         logging.StreamHandler()
     ]
 )
